@@ -8,21 +8,21 @@
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  /* width: 90vw; */
 }
 header a {
   text-decoration: none;
   color: black;
 }
 form input {
-  width: 500px;
+  width: 600px;
   height: 40px;
   background-color: #f8f9fb;
   border: 1px solid #635d5d;
   border-radius: 30px;
   display: flex;
   align-items: center;
-  padding-left: 60px;
+  padding-left: 50px;
+  outline: none;
 }
 form i {
   position: absolute;
@@ -41,7 +41,8 @@ form i {
 }
 .navtop header .circle h3 {
   color: white;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 .online {
   position: relative;
@@ -87,30 +88,30 @@ nav a {
 .left h1 {
   padding-top: 20px;
   padding-left: 20px;
-  font-family: 'Poppin' sans-serif;
+  font-family: "Poppin" sans-serif;
   font-size: 30px;
 }
 .left p {
   padding-top: 20px;
   padding-left: 20px;
-  font-family: 'Poppin' sans-serif;
+  font-family: "Poppin" sans-serif;
   font-size: 20px;
 }
-.foot{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.foot h1{
-  font-family: 'Poppin' sans-serif;
+.foot h1 {
+  font-family: "Poppin" sans-serif;
   font-size: 30px;
   padding-top: 25px;
   padding-left: 30px;
 }
-.foot a{
-  font-family: 'Poppin' sans-serif;
-  font-size: 20px;
- font-weight: bold;
+.foot a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
   padding-top: 25px;
-padding-right: 30px;
+  padding-right: 30px;
 }
