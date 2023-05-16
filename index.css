@@ -1,0 +1,116 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navtop header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  /* width: 90vw; */
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+form input {
+  width: 500px;
+  height: 40px;
+  background-color: #f8f9fb;
+  border: 1px solid #635d5d;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+form i {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.navtop header .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+.navtop header .circle h3 {
+  color: white;
+  text-align: center;
+}
+.online {
+  position: relative;
+}
+.online::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 2px solid #5a0fb1;
+  border-radius: 60%;
+  background: #8535e0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navbelow nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  background: #f8f9fb;
+}
+.body .left {
+  height: 28vh;
+  width: 30vw;
+  margin-bottom: 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.left h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppin' sans-serif;
+  font-size: 30px;
+}
+.left p {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppin' sans-serif;
+  font-size: 20px;
+}
+.foot{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.foot h1{
+  font-family: 'Poppin' sans-serif;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.foot a{
+  font-family: 'Poppin' sans-serif;
+  font-size: 20px;
+ font-weight: bold;
+  padding-top: 25px;
+padding-right: 30px;
+}
