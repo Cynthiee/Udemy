@@ -8,6 +8,8 @@
   justify-content: space-around;
   align-items: center;
   height: 10vh;
+  
+  border-bottom: #0c0c0c;
 }
 header a {
   text-decoration: none;
