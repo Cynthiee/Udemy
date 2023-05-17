@@ -7,9 +7,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
-  
-  border-bottom: #0c0c0c;
+  height: 10vh;  
 }
 header a {
   text-decoration: none;
@@ -65,7 +63,7 @@ form i {
   justify-content: space-around;
   align-items: center;
   height: 8vh;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(5, 5, 5, 0.2) 0px 7px 29px 0px;
   padding-left: 90px;
   padding-right: 90px;
 }
@@ -82,7 +80,7 @@ nav a {
   background: #f8f9fb;
 }
 .body .left {
-  height: 40vh;
+  height: 30vh;
   width: 30vw;
   margin-bottom: 80px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
